@@ -9,7 +9,7 @@
 		<key>CFBundlePrimaryIcon</key>
 		<dict>
 			<key>CFBundleSymbolName</key>
-			<string>flame</string>
+			<string>note.text</string>
 		</dict>
 	</dict>
 </dict>

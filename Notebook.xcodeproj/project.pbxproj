@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5470EE942A4D8F2300277E94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5470EE932A4D8F2300277E94 /* AppDelegate.swift */; };
 		5470EEAA2A4D8FC400277E94 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5470EEA92A4D8FC400277E94 /* FinderSync.swift */; };
-		5470EEAF2A4D8FC400277E94 /* CustomFinderSidebarIconSync.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5470EEA72A4D8FC400277E94 /* CustomFinderSidebarIconSync.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5470EEAF2A4D8FC400277E94 /* NotebookSync.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5470EEA72A4D8FC400277E94 /* NotebookSync.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5470EEB52A4D8FD700277E94 /* URLs in Resources */ = {isa = PBXBuildFile; fileRef = 5470EEB42A4D8FD700277E94 /* URLs */; };
 		54B0D0E52A4DCBE2002976E6 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B0D0E42A4DCBE2002976E6 /* Media.xcassets */; };
 		54B0D0E62A4DCC1E002976E6 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B0D0E42A4DCBE2002976E6 /* Media.xcassets */; };
@@ -21,7 +21,7 @@
 			containerPortal = 5470EE882A4D8F2300277E94 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5470EEA62A4D8FC400277E94;
-			remoteInfo = CustomFinderSidebarIconSync;
+			remoteInfo = NotebookSync;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -32,7 +32,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				5470EEAF2A4D8FC400277E94 /* CustomFinderSidebarIconSync.appex in Embed Foundation Extensions */,
+				5470EEAF2A4D8FC400277E94 /* NotebookSync.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -40,14 +40,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5470EE902A4D8F2300277E94 /* CustomFinderSidebarIcons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFinderSidebarIcons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5470EE902A4D8F2300277E94 /* Notebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5470EE932A4D8F2300277E94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5470EE9C2A4D8F2300277E94 /* CustomFinderSidebarIcons.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CustomFinderSidebarIcons.entitlements; sourceTree = "<group>"; };
+		5470EE9C2A4D8F2300277E94 /* Notebook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Notebook.entitlements; sourceTree = "<group>"; };
 		5470EEA22A4D8F7C00277E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		5470EEA72A4D8FC400277E94 /* CustomFinderSidebarIconSync.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CustomFinderSidebarIconSync.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5470EEA72A4D8FC400277E94 /* NotebookSync.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotebookSync.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		5470EEA92A4D8FC400277E94 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
 		5470EEAB2A4D8FC400277E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5470EEAC2A4D8FC400277E94 /* CustomFinderSidebarIconSync.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CustomFinderSidebarIconSync.entitlements; sourceTree = "<group>"; };
+		5470EEAC2A4D8FC400277E94 /* NotebookSync.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotebookSync.entitlements; sourceTree = "<group>"; };
 		5470EEB42A4D8FD700277E94 /* URLs */ = {isa = PBXFileReference; lastKnownFileType = text; path = URLs; sourceTree = "<group>"; };
 		54B0D0E42A4DCBE2002976E6 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,8 +73,8 @@
 		5470EE872A4D8F2300277E94 = {
 			isa = PBXGroup;
 			children = (
-				5470EE922A4D8F2300277E94 /* CustomFinderSidebarIcons */,
-				5470EEA82A4D8FC400277E94 /* CustomFinderSidebarIconSync */,
+				5470EE922A4D8F2300277E94 /* Notebook */,
+				5470EEA82A4D8FC400277E94 /* NotebookSync */,
 				5470EE912A4D8F2300277E94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,40 +82,40 @@
 		5470EE912A4D8F2300277E94 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5470EE902A4D8F2300277E94 /* CustomFinderSidebarIcons.app */,
-				5470EEA72A4D8FC400277E94 /* CustomFinderSidebarIconSync.appex */,
+				5470EE902A4D8F2300277E94 /* Notebook.app */,
+				5470EEA72A4D8FC400277E94 /* NotebookSync.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5470EE922A4D8F2300277E94 /* CustomFinderSidebarIcons */ = {
+		5470EE922A4D8F2300277E94 /* Notebook */ = {
 			isa = PBXGroup;
 			children = (
 				5470EEA22A4D8F7C00277E94 /* Info.plist */,
 				5470EE932A4D8F2300277E94 /* AppDelegate.swift */,
-				5470EE9C2A4D8F2300277E94 /* CustomFinderSidebarIcons.entitlements */,
+				5470EE9C2A4D8F2300277E94 /* Notebook.entitlements */,
 			);
-			path = CustomFinderSidebarIcons;
+			path = Notebook;
 			sourceTree = "<group>";
 		};
-		5470EEA82A4D8FC400277E94 /* CustomFinderSidebarIconSync */ = {
+		5470EEA82A4D8FC400277E94 /* NotebookSync */ = {
 			isa = PBXGroup;
 			children = (
 				54B0D0E42A4DCBE2002976E6 /* Media.xcassets */,
 				5470EEA92A4D8FC400277E94 /* FinderSync.swift */,
 				5470EEAB2A4D8FC400277E94 /* Info.plist */,
-				5470EEAC2A4D8FC400277E94 /* CustomFinderSidebarIconSync.entitlements */,
+				5470EEAC2A4D8FC400277E94 /* NotebookSync.entitlements */,
 				5470EEB42A4D8FD700277E94 /* URLs */,
 			);
-			path = CustomFinderSidebarIconSync;
+			path = NotebookSync;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5470EE8F2A4D8F2300277E94 /* CustomFinderSidebarIcons */ = {
+		5470EE8F2A4D8F2300277E94 /* Notebook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5470EE9F2A4D8F2300277E94 /* Build configuration list for PBXNativeTarget "CustomFinderSidebarIcons" */;
+			buildConfigurationList = 5470EE9F2A4D8F2300277E94 /* Build configuration list for PBXNativeTarget "Notebook" */;
 			buildPhases = (
 				5470EE8C2A4D8F2300277E94 /* Sources */,
 				5470EE8D2A4D8F2300277E94 /* Frameworks */,
@@ -127,14 +127,14 @@
 			dependencies = (
 				5470EEAE2A4D8FC400277E94 /* PBXTargetDependency */,
 			);
-			name = CustomFinderSidebarIcons;
-			productName = CustomFinderSidebarIcons;
-			productReference = 5470EE902A4D8F2300277E94 /* CustomFinderSidebarIcons.app */;
+			name = Notebook;
+			productName = Notebook;
+			productReference = 5470EE902A4D8F2300277E94 /* Notebook.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5470EEA62A4D8FC400277E94 /* CustomFinderSidebarIconSync */ = {
+		5470EEA62A4D8FC400277E94 /* NotebookSync */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5470EEB02A4D8FC400277E94 /* Build configuration list for PBXNativeTarget "CustomFinderSidebarIconSync" */;
+			buildConfigurationList = 5470EEB02A4D8FC400277E94 /* Build configuration list for PBXNativeTarget "NotebookSync" */;
 			buildPhases = (
 				5470EEA32A4D8FC400277E94 /* Sources */,
 				5470EEA42A4D8FC400277E94 /* Frameworks */,
@@ -144,9 +144,9 @@
 			);
 			dependencies = (
 			);
-			name = CustomFinderSidebarIconSync;
-			productName = CustomFinderSidebarIconSync;
-			productReference = 5470EEA72A4D8FC400277E94 /* CustomFinderSidebarIconSync.appex */;
+			name = NotebookSync;
+			productName = NotebookSync;
+			productReference = 5470EEA72A4D8FC400277E94 /* NotebookSync.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -167,7 +167,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5470EE8B2A4D8F2300277E94 /* Build configuration list for PBXProject "CustomFinderSidebarIcons" */;
+			buildConfigurationList = 5470EE8B2A4D8F2300277E94 /* Build configuration list for PBXProject "Notebook" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -180,8 +180,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5470EE8F2A4D8F2300277E94 /* CustomFinderSidebarIcons */,
-				5470EEA62A4D8FC400277E94 /* CustomFinderSidebarIconSync */,
+				5470EE8F2A4D8F2300277E94 /* Notebook */,
+				5470EEA62A4D8FC400277E94 /* NotebookSync */,
 			);
 		};
 /* End PBXProject section */
@@ -228,7 +228,7 @@
 /* Begin PBXTargetDependency section */
 		5470EEAE2A4D8FC400277E94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5470EEA62A4D8FC400277E94 /* CustomFinderSidebarIconSync */;
+			target = 5470EEA62A4D8FC400277E94 /* NotebookSync */;
 			targetProxy = 5470EEAD2A4D8FC400277E94 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -353,12 +353,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CustomFinderSidebarIcons/CustomFinderSidebarIcons.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Notebook/Notebook.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CustomFinderSidebarIcons/Info.plist;
+				INFOPLIST_FILE = Notebook/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -367,7 +367,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rknightuk.customfindersidebaricons.CustomFinderSidebarIcons;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rknightuk.customfindersidebaricons.Notebook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -380,12 +380,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CustomFinderSidebarIcons/CustomFinderSidebarIcons.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Notebook/Notebook.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CustomFinderSidebarIcons/Info.plist;
+				INFOPLIST_FILE = Notebook/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -394,7 +394,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rknightuk.customfindersidebaricons.CustomFinderSidebarIcons;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rknightuk.customfindersidebaricons.Notebook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -404,13 +404,13 @@
 		5470EEB12A4D8FC400277E94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = CustomFinderSidebarIconSync/CustomFinderSidebarIconSync.entitlements;
+				CODE_SIGN_ENTITLEMENTS = NotebookSync/NotebookSync.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CustomFinderSidebarIconSync/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = CustomFinderSidebarIconSync;
+				INFOPLIST_FILE = NotebookSync/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotebookSync;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -418,7 +418,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rknightuk.customfindersidebaricons.CustomFinderSidebarIcons.CustomFinderSidebarIconSync;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rknightuk.customfindersidebaricons.Notebook.NotebookSync;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -429,13 +429,13 @@
 		5470EEB22A4D8FC400277E94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = CustomFinderSidebarIconSync/CustomFinderSidebarIconSync.entitlements;
+				CODE_SIGN_ENTITLEMENTS = NotebookSync/NotebookSync.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CustomFinderSidebarIconSync/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = CustomFinderSidebarIconSync;
+				INFOPLIST_FILE = NotebookSync/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotebookSync;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,7 +443,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rknightuk.customfindersidebaricons.CustomFinderSidebarIcons.CustomFinderSidebarIconSync;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rknightuk.customfindersidebaricons.Notebook.NotebookSync;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -454,7 +454,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5470EE8B2A4D8F2300277E94 /* Build configuration list for PBXProject "CustomFinderSidebarIcons" */ = {
+		5470EE8B2A4D8F2300277E94 /* Build configuration list for PBXProject "Notebook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5470EE9D2A4D8F2300277E94 /* Debug */,
@@ -463,7 +463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5470EE9F2A4D8F2300277E94 /* Build configuration list for PBXNativeTarget "CustomFinderSidebarIcons" */ = {
+		5470EE9F2A4D8F2300277E94 /* Build configuration list for PBXNativeTarget "Notebook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5470EEA02A4D8F2300277E94 /* Debug */,
@@ -472,7 +472,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5470EEB02A4D8FC400277E94 /* Build configuration list for PBXNativeTarget "CustomFinderSidebarIconSync" */ = {
+		5470EEB02A4D8FC400277E94 /* Build configuration list for PBXNativeTarget "NotebookSync" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5470EEB12A4D8FC400277E94 /* Debug */,
