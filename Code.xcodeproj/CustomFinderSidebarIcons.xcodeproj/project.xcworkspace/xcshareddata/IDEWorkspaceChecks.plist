@@ -2,15 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>LSBackgroundOnly</key>
+	<key>IDEDidComputeMac32BitWarning</key>
 	<true/>
-	<key>CFBundleIcons</key>
-	<dict>
-		<key>CFBundlePrimaryIcon</key>
-		<dict>
-			<key>CFBundleSymbolName</key>
-      <string>latch.2.case</string>
-		</dict>
-	</dict>
 </dict>
 </plist>
