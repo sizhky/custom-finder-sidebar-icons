@@ -9,7 +9,7 @@
 		<key>CFBundlePrimaryIcon</key>
 		<dict>
 			<key>CFBundleSymbolName</key>
-			<string>paintbrush.fill</string>
+      <string>paintbrush</string>
 		</dict>
 	</dict>
 </dict>
